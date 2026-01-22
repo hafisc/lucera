@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #050505;
+  --color-surface: #121212;
+  --color-foreground: #FFFFFF;
+  --color-secondary: #A3A3A3;
+  --color-accent: #D4D4D8;
+  --color-border: #262626;
+
+  --font-heading: var(--font-oswald);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #050505;
+  --foreground: #FFFFFF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Utilities for High-End Feel */
+@utility text-heading {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+@utility glass {
+  background: rgba(5, 5, 5, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@utility chrome-text {
+  background: linear-gradient(to bottom, #FFFFFF 0%, #D4D4D8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
