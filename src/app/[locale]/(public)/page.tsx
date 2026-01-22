@@ -16,19 +16,19 @@ const PRODUCTS: Product[] = [
 export default function HomePage() {
     return (
         <>
-            <Hero />
+            {/* <Hero /> */}
 
             <section className="w-full py-24 px-6 md:px-12 bg-background z-10 relative">
                 <div className="max-w-[1400px] mx-auto">
                     {/* Section Header */}
-                    <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4 border-b border-white/5 pb-6">
+                    {/* <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4 border-b border-white/5 pb-6">
                         <h2 className="font-heading text-4xl md:text-5xl uppercase font-bold text-white tracking-tight">
                             Latest Drops
                         </h2>
                         <span className="text-secondary text-sm uppercase tracking-widest pb-1">
                             Fall / Winter 2026
                         </span>
-                    </div>
+                    </div> */}
 
                     {/* Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-6">

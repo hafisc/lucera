@@ -8,8 +8,6 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
     { href: "/shop", label: "Shop" },
-    { href: "/collections", label: "Collections" },
-    { href: "/lookbook", label: "Lookbook" },
 ];
 
 export function Navbar() {
@@ -71,15 +69,16 @@ export function Navbar() {
                     <button className="hover:text-accent transition-colors">
                         <Search className="w-5 h-5" />
                     </button>
-                    <button className="hover:text-accent transition-colors hidden md:block">
-                        <User className="w-5 h-5" />
-                    </button>
                     <button className="relative hover:text-accent transition-colors">
                         <ShoppingBag className="w-5 h-5" />
                         <span className="absolute -top-1 -right-1 flex h-3 w-3 items-center justify-center rounded-full bg-white text-[8px] font-bold text-black">
                             0
                         </span>
                     </button>
+                    <button className="hover:text-accent transition-colors hidden md:block">
+                        <User className="w-5 h-5" />
+                    </button>
+
 
                     <button
                         className="md:hidden hover:text-accent transition-colors"

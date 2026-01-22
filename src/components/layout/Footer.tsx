@@ -10,12 +10,12 @@ export function Footer() {
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-sm text-secondary">
-                    <div className="flex flex-col gap-2">
+                    {/* <div className="flex flex-col gap-2">
                         <span className="text-white font-medium uppercase mb-2">Shop</span>
                         <a href="#" className="hover:text-white transition-colors">New Arrivals</a>
                         <a href="#" className="hover:text-white transition-colors">Best Sellers</a>
                         <a href="#" className="hover:text-white transition-colors">Accessories</a>
-                    </div>
+                    </div> */}
                     <div className="flex flex-col gap-2">
                         <span className="text-white font-medium uppercase mb-2">Legal</span>
                         <a href="#" className="hover:text-white transition-colors">Privacy</a>

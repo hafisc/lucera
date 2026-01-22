@@ -44,10 +44,10 @@ export function ProductCard({ product }: { product: Product }) {
 
             {/* Info */}
             <div className="flex flex-col gap-1 items-start">
-                <h3 className="font-bold text-white text-sm uppercase tracking-wide group-hover:text-accent transition-colors cursor-pointer">
+                <h3 className="font-bold text-white text-[10px] md:text-sm uppercase tracking-wide group-hover:text-accent transition-colors cursor-pointer line-clamp-1">
                     {product.name}
                 </h3>
-                <p className="text-secondary text-sm font-light">
+                <p className="text-secondary text-[10px] md:text-sm font-light">
                     {product.price}
                 </p>
             </div>
